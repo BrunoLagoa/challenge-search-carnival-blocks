@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Encontre seu bloco no carnaval</title>
+
+  <script src="https://unpkg.com/phosphor-icons"></script>
+</head>
+
+<body>
+
+  <header>
+    <div class="content">
+      <div class="top">
+        <p>find you block</p>
+        <h1>Encontre os <span>melhores blocos</span> de carnaval de 2023</h1>
+      </div>
+      <form class="search">
+        <div class="search-field">
+          <label for="name" class="sr-only">Pesquise por nome</label>
+          <i class="ph-magnifying-glass-light"></i>
+          <input type="text" id="name" name="name" placeholder="Pesquise por nome">
+        </div>
+        <div class="search-field select">
+          <label for="city" class="sr-only">Selecione uma cidade</label>
+          <i class="ph-map-pin-light"></i>
+          <select name="city" id="city">
+            <option value="0" selected>Selecione uma cidade</option>
+            <option value="belo-horizonte">Belo Horizonte</option>
+            <option value="lagoa-santa">Lagoa Santa</option>
+            <option value="sao-paulo">São Paulo</option>
+            <option value="rio-de-janeiro">Rio de Janeiro</option>
+          </select>
+          <i class="ph-caret-down-light"></i>
+        </div>
+        <button class="btn primary">Buscar agora</button>
+      </form>
+    </div>
+  </header>
+
+  <main>
+    <div class="content">
+      <section class="top">
+        <h2>Blocos recomendados</h2>
+        <div class="view">
+          <button class="btn primary">Lista</button>
+          <button class="btn secondary">Mapa</button>
+        </div>
+      </section>
+      <section class="cards">
+        <div class="card">
+          <img src="./assets/01.jpeg" alt="Bloco Ziriggydum Stardust">
+          <div class="content">
+            <h3>Bloco Ziriggydum Stardust</h3>
+            <p>
+              Relembrando clássicos de David Bowie, o bloco Ziriggydum Stardust ocupa as ruas de Belo Horizonte desde
+              2016.
+              Com muita folia e animação, o bloco ainda presta homenagens a artistas como Michael Jackson, Prince e
+              George
+              Michael
+            </p>
+
+            <p>
+              25/02/2023 - Sábado - 10:00
+              Floresta
+              Rua David Campista, 42
+            </p>
+
+            <div class="location">
+              <i class="ph-map-pin-light"></i>
+              <p>Belo Horizonte - MG</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/02.jpeg" alt="Bloco Transborda">
+          <div class="content">
+            <h3>Bloco Transborda</h3>
+            <p>
+              O bloco Transborda foi criado em 2018 por movimentos sociais periféricos, com o objetivo de
+              descentralização do lazer, conexão com outras periferias e ocupação dos espaços públicos. O cortejo
+              desfila com uma bateria de 40 integrantes, com tamborim, rocar, surdo, repenique e caixa e os estilos
+              samba, reggae e funk.
+            </p>
+
+            <p>
+              25/02/2023 - Sábado - 10:00
+              Floresta
+              Rua David Campista, 42
+            </p>
+
+            <div class="location">
+              <i class="ph-map-pin-light"></i>
+              <p>Belo Horizonte - MG</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/03.jpeg" alt="Bloco Rasta">
+          <div class="content">
+            <h3>Bloco Rasta</h3>
+            <p>
+              Com muita música, pinturas faciais, teatro e lazer, o Bloco do Rasta ocupa as ruas de Belo Horizonte
+              trazendo para as pessoas em situação de vulnerabilidade um carnaval de rua com muita animação.
+            </p>
+
+            <p>
+              25/02/2023 - Sábado - 10:00
+              Floresta
+              Rua David Campista, 42
+            </p>
+
+            <div class="location">
+              <i class="ph-map-pin-light"></i>
+              <p>Belo Horizonte - MG</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/01.jpeg" alt="Bloco Ziriggydum Stardust">
+          <div class="content">
+            <h3>Bloco Ziriggydum Stardust</h3>
+            <p>
+              Relembrando clássicos de David Bowie, o bloco Ziriggydum Stardust ocupa as ruas de Belo Horizonte desde
+              2016.
+              Com muita folia e animação, o bloco ainda presta homenagens a artistas como Michael Jackson, Prince e
+              George
+              Michael
+            </p>
+
+            <p>
+              25/02/2023 - Sábado - 10:00
+              Floresta
+              Rua David Campista, 42
+            </p>
+
+            <div class="location">
+              <i class="ph-map-pin-light"></i>
+              <p>Belo Horizonte - MG</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/02.jpeg" alt="Bloco Transborda">
+          <div class="content">
+            <h3>Bloco Transborda</h3>
+            <p>
+              O bloco Transborda foi criado em 2018 por movimentos sociais periféricos, com o objetivo de
+              descentralização do lazer, conexão com outras periferias e ocupação dos espaços públicos. O cortejo
+              desfila com uma bateria de 40 integrantes, com tamborim, rocar, surdo, repenique e caixa e os estilos
+              samba, reggae e funk.
+            </p>
+
+            <p>
+              25/02/2023 - Sábado - 10:00
+              Floresta
+              Rua David Campista, 42
+            </p>
+
+            <div class="location">
+              <i class="ph-map-pin-light"></i>
+              <p>Belo Horizonte - MG</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="./assets/03.jpeg" alt="Bloco Rasta">
+          <div class="content">
+            <h3>Bloco Rasta</h3>
+            <p>
+              Com muita música, pinturas faciais, teatro e lazer, o Bloco do Rasta ocupa as ruas de Belo Horizonte
+              trazendo para as pessoas em situação de vulnerabilidade um carnaval de rua com muita animação.
+            </p>
+
+            <p>
+              25/02/2023 - Sábado - 10:00
+              Floresta
+              Rua David Campista, 42
+            </p>
+
+            <div class="location">
+              <i class="ph-map-pin-light"></i>
+              <p>Belo Horizonte - MG</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+</body>
+
+</html>
